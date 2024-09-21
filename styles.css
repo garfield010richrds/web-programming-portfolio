@@ -1,0 +1,43 @@
+
+header{
+    color: black;
+    
+    background: rgb(142, 118, 118);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    flex-direction: row;
+
+}
+
+li{
+    color: purple;
+    display: inline-block;
+    margin: 30px;
+}
+div{
+    background: red;
+    margin: auto;
+    width: 200px;
+}
+button{
+    color: yellow;
+    background-color: black;
+    font-size: large;
+}
+
+body{
+    font-size: larger;
+    
+    background: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section{
+    margin: 20px;
+    color: black;
+    background: grey;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;  
+}
+

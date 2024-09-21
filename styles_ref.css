@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a82fb, #fc5c7d); /* Blue to pink gradient */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0.8)); /* Light gradient for header */
+    color: #6a82fb; /* Blue color for header text */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333; /* Dark background for nav */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: #575757; /* Darker gray on hover */
+    transform: scale(1.05);
+}
+
+/* Content Section Styles */
+section {
+    background: linear-gradient(to right, #ffffff, #f7f7f7); /* Light gradient for section */
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+section h2 {
+    color: #6a82fb; /* Match header color */
+    border-bottom: 2px solid #6a82fb; /* Matching underline */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styles */
+section p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #333, rgba(0, 0, 0, 0.8)); /* Dark gradient for footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px;
+    }
+}

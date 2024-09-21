@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ff6f61, #6a82fb);
+    color: #fff;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #ff6f61;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ff6f61;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Picture Styles */
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Section Styles */
+section {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ff6f61;
+    text-decoration: underline;
+}
